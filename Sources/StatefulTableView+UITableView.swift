@@ -17,7 +17,7 @@ extension StatefulTableView {
    - Discussion: Visit this [link](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITableView_Class/#//apple_ref/occ/instm/UITableView/numberOfRowsInSection:) for more details.
    */
   public func numberOfRowsInSection(_ section: Int) -> Int {
-    return tableView.numberOfRowsInSection(section)
+    return tableView.numberOfRows(inSection: section)
   }
 
   /**
